@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Використати Калькулятор">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="keywords" type="text/plain" href="keywords/keywords_main.txt">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/calculator.css">
+    <title>Калькулятор</title>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="Calculator-Window">
+        <input id="display" type="text" placeholder="Введіть рівняння">
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="addNum('%')" >%</button>
+            <button onclick="addNum('/')" >/</button>
+            <button onclick="deleteLastNum()"><img class= "delete-img" src="images/delete.png" alt="Видалити"></button>
+            <button onclick="addNum(1)" class="numbers">1</button>
+            <button onclick="addNum(2)" class="numbers">2</button>
+            <button onclick="addNum(3)" class="numbers">3</button>
+            <button onclick="addNum('*')" >x</button>
+            <button onclick="addNum(4)" class="numbers">4</button>
+            <button onclick="addNum(5)" class="numbers">5</button>
+            <button onclick="addNum(6)" class="numbers">6</button>
+            <button onclick="addNum('-')" >-</button>
+            <button onclick="addNum(7)" class="numbers">7</button>
+            <button onclick="addNum(8)" class="numbers">8</button>
+            <button onclick="addNum(9)" class="numbers">9</button>
+            <button onclick="addNum('+')" >+</button>
+            <button onclick="addNum('00')" class="numbers">00</button>
+            <button onclick="addNum(0)" class="numbers">0</button>
+            <button onclick="addNum('.')" class="numbers">.</button>
+            <button onclick="calculate()" >=</button>
+        </div>
+        <script src="js/calculate.js"></script>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,295 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 150px;
+}
+
+/* Header */
+
+.header{
+    padding: 40px 0 30px 0;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-content img{
+    height: 50px;
+}
+
+.header-input {
+    display: flex;
+    align-items: center;
+}
+
+.header-input input{
+    background-color: whitesmoke;
+    padding: 15px 20px;
+    width: 427px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.header-input input::placeholder{
+    color: grey;
+}
+
+.header-input button {
+    border: 0;
+    outline: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0 ;
+    padding: 9px 20px;
+}
+
+.header-input button:hover{
+    cursor: pointer;
+}
+
+.header-input button img {
+    height: 24px;
+}
+
+.header-question{
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-question img{
+    height: 24px;
+    margin-right: 10px;
+}
+
+.header-question p {
+    color: black
+}
+
+.header-contact a{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-contact p {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    text-decoration: none;
+}
+.header-contact-button {
+    text-decoration: none;
+    padding: 20px 0 20px 7px;
+    display: flex;
+    align-items: center;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.header-contact-button img {
+    height: 24px;
+    margin-right: 10px;
+    border: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-login {
+    display: flex;
+    align-items: center;
+}
+
+.header-login img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.header-login a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+/* Main */
+
+.main-target{
+    color: grey;
+    margin-bottom: 49px;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-content:first-child{
+    margin-right: 106px;
+}
+
+.main-content div h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 15px;
+    width: 700px;
+}
+
+.main-content > div > p {
+    color: black;
+    line-height: 26px;
+    margin-bottom: 30px;
+    border-left-width: 26px;
+    width: 700px;
+}
+
+.main-question{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+
+}
+
+.main-question a {
+    border: 2px solid aquamarine;
+    padding: 16px 36px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.main-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.main-plus div{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-plus div p {
+    color: black;
+
+}
+
+.main-plus div img {
+    height: 24px;
+    margin-right: 10px;
+
+}
+
+/* STORY */
+
+.story {
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+}
+
+.story h2 { 
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.store h2:last-of-type { 
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+
+.story-info{ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.story-info p { 
+    margin-bottom: 7px;
+}
+
+.calc-variant { 
+    margin: 30px 150px 80px 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.calc-variant div {
+    padding: 20px;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.calc-variant div img {
+    display: block; 
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.calc-variant p { 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+
+.calc-variant a { 
+    color: rebeccapurple;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.geometry-img{ 
+    margin: 30px 150px 80px 150px ;
+    border-radius: 20px;
+    border: 2px solid aquamarine;
+    padding: 50px 0 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.elements-img { 
+    position: absolute;
+    bottom: 0;
+    left: 36px;
+    z-index: 1;
+}
+
