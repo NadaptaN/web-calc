@@ -15,14 +15,6 @@ function deleteLastNum() {
     display.value = newDisplay;
 }
 
-function calculate() {
-    const display = document.getElementById('display');
-    try {
-        display.value = eval(display.value);
-    } catch (error) {
-        display.value = 'Спробуй ще!';
-    }
-}
 
 document.getElementById('display').addEventListener('keydown', function(event) {
     if (event.code === 'Enter' || event.code === 'NumpadEnter')  {
