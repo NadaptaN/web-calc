@@ -283,13 +283,64 @@ body {
     border: 2px solid aquamarine;
     padding: 50px 0 50px 0;
     position: relative;
-    overflow: hidden;
 }
 
-.elements-img { 
-    position: absolute;
-    bottom: 0;
-    left: 36px;
-    z-index: 1;
+/* INFO_BLOCK */
+
+.info_block { 
+    margin-bottom: 50px;
+    
 }
+.container h2 { 
+    margin-top: -50px;
+    margin-bottom: 30px;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.founders { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.founders div{
+    width: calc(50% - 15px);
+    border: 2px solid aquamarine;
+    box-shadow:
+    3px 3px 5px 0 rgba(0,0,0,0.5);
+    margin: 10px;
+    border-radius: 20px;
+   
+}
+
+.founders div h3{
+    padding: 10px 0 3px 0;
+    text-align: center;
+    display: inline-block; /* для поддержки позиционирования */
+    box-shadow: 0 2px 0 0 grey;
+}
+
+.founders div:nth-child(even) { 
+    margin-right: 0;
+}
+
+.founders div img { 
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+}
+
+.founders div p { 
+    text-align:justify;
+    padding: 10px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.founders div p span{ 
+    font-weight: 700;
+}
+
 
